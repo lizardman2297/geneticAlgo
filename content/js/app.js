@@ -4,6 +4,8 @@ function pop1(){
     var genome = getRandomInt(2);
     var ligne = document.getElementById("pop1");
     var contenu = ligne.innerHTML;
+    var ligneScore = document.getElementById("score1");
+    ligneScore.innerHTML = 'Score : ' + score(genome);
     ligne.innerHTML = contenu + ' ' + genome;
     
     console.log("score : " + score(genome));
@@ -13,6 +15,8 @@ function pop2(){
     var genome = getRandomInt(2);
     var ligne = document.getElementById("pop2");
     var contenu = ligne.innerHTML;
+    var ligneScore = document.getElementById("score2");
+    ligneScore.innerHTML = 'Score : ' + score(genome);
     ligne.innerHTML = contenu + ' ' + genome;
     
     console.log("score : " + score(genome));
@@ -22,6 +26,8 @@ function pop3(){
     var genome = getRandomInt(2);
     var ligne = document.getElementById("pop3");
     var contenu = ligne.innerHTML;
+    var ligneScore = document.getElementById("score3");
+    ligneScore.innerHTML = 'Score : ' + score(genome);
     ligne.innerHTML = contenu + ' ' + genome;
     
     console.log("score : " + score(genome));
@@ -31,6 +37,8 @@ function pop4(){
     var genome = getRandomInt(2);
     var ligne = document.getElementById("pop4");
     var contenu = ligne.innerHTML;
+    var ligneScore = document.getElementById("score4");
+    ligneScore.innerHTML = 'Score : ' + score(genome);
     ligne.innerHTML = contenu + ' ' + genome;
     
     console.log("score : " + score(genome));
@@ -40,6 +48,8 @@ function pop5(){
     var genome = getRandomInt(2);
     var ligne = document.getElementById("pop5");
     var contenu = ligne.innerHTML;
+    var ligneScore = document.getElementById("score5");
+    ligneScore.innerHTML = 'Score : ' + score(genome);
     ligne.innerHTML = contenu + ' ' + genome;
     
     console.log("score : " + score(genome));
@@ -49,6 +59,8 @@ function pop6(){
     var genome = getRandomInt(2);
     var ligne = document.getElementById("pop6");
     var contenu = ligne.innerHTML;
+    var ligneScore = document.getElementById("score6");
+    ligneScore.innerHTML = 'Score : ' + score(genome);
     ligne.innerHTML = contenu + ' ' + genome;
     
     console.log("score : " + score(genome));
@@ -58,6 +70,8 @@ function pop7(){
     var genome = getRandomInt(2);
     var ligne = document.getElementById("pop7");
     var contenu = ligne.innerHTML;
+    var ligneScore = document.getElementById("score7");
+    ligneScore.innerHTML = 'Score : ' + score(genome);
     ligne.innerHTML = contenu + ' ' + genome;
     
     console.log("score : " + score(genome));
@@ -67,6 +81,8 @@ function pop8(){
     var genome = getRandomInt(2);
     var ligne = document.getElementById("pop8");
     var contenu = ligne.innerHTML;
+    var ligneScore = document.getElementById("score8");
+    ligneScore.innerHTML = 'Score : ' + score(genome);
     ligne.innerHTML = contenu + ' ' + genome;
     
     console.log("score : " + score(genome));
