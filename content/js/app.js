@@ -74,18 +74,28 @@ function getRandomInt(max) {
     var individu = [];
     var i = 0;
     var gene;
+    var nb = document.getElementById("lenght").value;
+    // console.log(nb);
 
     do {
         gene =  Math.floor(Math.random() * Math.floor(max));
         individu[i] = gene ;
         // console.log(individu);
         i += 1
-    } while(i<64)
+    } while(i<nb)
 
     // return console.log("individu : " + individu);
     return individu;
   }
 
-function calculeScore(unIndividu){
-
+function reset(){
+    document.getElementById("pop1").innerHTML = "1. ";
+    document.getElementById("pop2").innerHTML = "2. ";
+    document.getElementById("pop3").innerHTML = "3. ";
+    document.getElementById("pop4").innerHTML = "4. ";
+    document.getElementById("pop5").innerHTML = "5. ";
+    document.getElementById("pop6").innerHTML = "6. ";
+    document.getElementById("pop7").innerHTML = "7. ";
+    document.getElementById("pop8").innerHTML = "8. ";
+    document.getElementById("lenght").value = 8;
 }

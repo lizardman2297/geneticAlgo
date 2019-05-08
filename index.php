@@ -15,10 +15,12 @@
     <div class="forJS">
     
         <!-- <button id="btGenerate" onclick="getRandomInt(2)">Generate</button> -->
+        <input type="number" name="lenght" id="lenght" value=8 min=8 step=+8>
         <button id="btGenerate" onclick="affPopulation()">Generate</button>
         <button id="btSort">Sort</button>
         <button id="btMuatate">Mutate</button>
         <button id="btFill">Fill</button>
+        <button id="btReset" onclick="reset()">reset</button>
 
         <br>
         <br>
