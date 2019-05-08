@@ -189,5 +189,13 @@ function reset(){
     document.getElementById("pop6").innerHTML = "";
     document.getElementById("pop7").innerHTML = "";
     document.getElementById("pop8").innerHTML = "";
+    document.getElementById("score1").innerHTML = "";
+    document.getElementById("score2").innerHTML = "";
+    document.getElementById("score3").innerHTML = "";
+    document.getElementById("score4").innerHTML = "";
+    document.getElementById("score5").innerHTML = "";
+    document.getElementById("score6").innerHTML = "";
+    document.getElementById("score7").innerHTML = "";
+    document.getElementById("score8").innerHTML = "";
     document.getElementById("lenght").value = 8;
 }
