@@ -10,7 +10,7 @@
     <title>genetic algorithm</title>
 </head>
 <body>
-    <h2>First genetic algorithm</h2>
+    <h2>genetic algorithm</h2>
 
     <div class="forJS">
     
