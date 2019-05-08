@@ -15,29 +15,25 @@
     <div class="forJS">
     
         <!-- <button id="btGenerate" onclick="getRandomInt(2)">Generate</button> -->
-        <input type="number" name="lenght" id="lenght" value=8 min=8 step=8>
+        <input type="number" name="lenght" id="lenght" value=8 min=8 max=64 step=8>
         <button id="btGenerate" onclick="affPopulation()">Generate</button>
-        <button id="btSort">Sort</button>
+        <button id="btSort" onclick="affTri()">Sort</button>
         <button id="btMuatate">Mutate</button>
         <button id="btFill">Fill</button>
         <button id="btReset" onclick="reset()">reset</button>
 
-        <br>
-        <br>
-        <br>
+        <br>        <br>        <br>
     
         <div class="population1">
-        
-        <p id="pop1">1.</p>
-        <p id="pop2">2.</p>
-        <p id="pop3">3.</p>
-        <p id="pop4">4.</p>
-        <p id="pop5">5.</p>
-        <p id="pop6">6.</p>
-        <p id="pop7">7.</p>
-        <p id="pop8">8.</p>
-<!--             
-        <p id="pop0" tag="0">1.</p>
+        <p id="pop1"></p>
+        <p id="pop2"></p>
+        <p id="pop3"></p>
+        <p id="pop4"></p>
+        <p id="pop5"></p>
+        <p id="pop6"></p>
+        <p id="pop7"></p>
+        <p id="pop8"></p>   
+<!--    <p id="pop0" tag="0">1.</p>
         <p id="pop1">2.</p>
         <p id="pop2">3.</p>
         <p id="pop3">4.</p>
@@ -45,7 +41,17 @@
         <p id="pop5">6.</p>
         <p id="pop6">7.</p>
         <p id="pop7">8.</p> -->
+        </div>
 
+        <div class="population1Trier">
+        <p id="popT1"></p>
+        <p id="popT2"></p>
+        <p id="popT3"></p>
+        <p id="popT4"></p>
+        <p id="popT5"></p>
+        <p id="popT6"></p>
+        <p id="popT7"></p>
+        <p id="popT8"></p>
         </div>
 
     </div>
