@@ -32,7 +32,15 @@
         <p id="pop5"></p>
         <p id="pop6"></p>
         <p id="pop7"></p>
-        <p id="pop8"></p>   
+        <p id="pop8"></p>
+        <p class="score1"></p>
+        <p class="score2"></p>
+        <p class="score3"></p>
+        <p class="score4"></p>
+        <p class="score5"></p>
+        <p class="score6"></p>
+        <p class="score7"></p>
+        <p class="score8"></p>
 <!--    <p id="pop0" tag="0">1.</p>
         <p id="pop1">2.</p>
         <p id="pop2">3.</p>

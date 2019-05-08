@@ -5,7 +5,8 @@ function pop1(){
     var ligne = document.getElementById("pop1");
     var contenu = ligne.innerHTML;
     ligne.innerHTML = contenu + ' ' + genome;
-    console.log(score(genome));
+    
+    console.log("score : " + score(genome));
 }
 
 function pop2(){
@@ -13,7 +14,8 @@ function pop2(){
     var ligne = document.getElementById("pop2");
     var contenu = ligne.innerHTML;
     ligne.innerHTML = contenu + ' ' + genome;
-    console.log(score(genome));
+    
+    console.log("score : " + score(genome));
 }
 
 function pop3(){
@@ -21,7 +23,8 @@ function pop3(){
     var ligne = document.getElementById("pop3");
     var contenu = ligne.innerHTML;
     ligne.innerHTML = contenu + ' ' + genome;
-    console.log(score(genome));
+    
+    console.log("score : " + score(genome));
 }
 
 function pop4(){
@@ -29,7 +32,8 @@ function pop4(){
     var ligne = document.getElementById("pop4");
     var contenu = ligne.innerHTML;
     ligne.innerHTML = contenu + ' ' + genome;
-    console.log(score(genome));
+    
+    console.log("score : " + score(genome));
 }
 
 function pop5(){
@@ -37,7 +41,8 @@ function pop5(){
     var ligne = document.getElementById("pop5");
     var contenu = ligne.innerHTML;
     ligne.innerHTML = contenu + ' ' + genome;
-    console.log(score(genome));
+    
+    console.log("score : " + score(genome));
 }
 
 function pop6(){
@@ -45,7 +50,8 @@ function pop6(){
     var ligne = document.getElementById("pop6");
     var contenu = ligne.innerHTML;
     ligne.innerHTML = contenu + ' ' + genome;
-    console.log(score(genome));
+    
+    console.log("score : " + score(genome));
 }
 
 function pop7(){
@@ -53,7 +59,8 @@ function pop7(){
     var ligne = document.getElementById("pop7");
     var contenu = ligne.innerHTML;
     ligne.innerHTML = contenu + ' ' + genome;
-    console.log(score(genome));
+    
+    console.log("score : " + score(genome));
 }
 
 function pop8(){
@@ -61,7 +68,8 @@ function pop8(){
     var ligne = document.getElementById("pop8");
     var contenu = ligne.innerHTML;
     ligne.innerHTML = contenu + ' ' + genome;
-    console.log(score(genome));
+    
+    console.log("score : " + score(genome));
 }
 //#endregion generation1
 
@@ -89,16 +97,17 @@ function affTri(){
 }
 
 function score(ix){
-    var i;
-    var score = 0
+    var i = 0;
+    var score = 0;
     do {
-        if (ix[i] = 1 ) {
+        if (ix[i] == 1 ) {
             score += 1;
         } else {
             score +=0;
         }
+        i += 1
         // console.log(score);
-    }while(i < 8)
+    }while(i < 7)
     return score;
 }
 
