@@ -15,7 +15,7 @@
     <div class="forJS">
     
         <!-- <button id="btGenerate" onclick="getRandomInt(2)">Generate</button> -->
-        <input type="number" name="lenght" id="lenght" value=8 min=8 step=+8>
+        <input type="number" name="lenght" id="lenght" value=8 min=8 step=8>
         <button id="btGenerate" onclick="affPopulation()">Generate</button>
         <button id="btSort">Sort</button>
         <button id="btMuatate">Mutate</button>
@@ -28,23 +28,23 @@
     
         <div class="population1">
         
-        <!-- <p id="pop1">1.</p>
+        <p id="pop1">1.</p>
         <p id="pop2">2.</p>
         <p id="pop3">3.</p>
         <p id="pop4">4.</p>
         <p id="pop5">5.</p>
         <p id="pop6">6.</p>
         <p id="pop7">7.</p>
-        <p id="pop8">8.</p> -->
-            
-        <p id="pop0">1.</p>
+        <p id="pop8">8.</p>
+<!--             
+        <p id="pop0" tag="0">1.</p>
         <p id="pop1">2.</p>
         <p id="pop2">3.</p>
         <p id="pop3">4.</p>
         <p id="pop4">5.</p>
         <p id="pop5">6.</p>
         <p id="pop6">7.</p>
-        <p id="pop7">8.</p>
+        <p id="pop7">8.</p> -->
 
         </div>
 

@@ -59,21 +59,14 @@ function pop8(){
 
 
 function affPopulation(){
-    // pop1();
-    // pop2();
-    // pop3();
-    // pop4();
-    // pop5();
-    // pop6();
-    // pop7();
-    // pop8();
-
-    var i = 0;
-
-    do {
-        document.getElementById("pop"+i).innerHTML(getRandomInt(2));
-        i += 1;
-    } while (i < 7)
+    pop1();
+    pop2();
+    pop3();
+    pop4();
+    pop5();
+    pop6();
+    pop7();
+    pop8();
 }
 
 function getRandomInt(max) {
