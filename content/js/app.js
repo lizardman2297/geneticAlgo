@@ -1,3 +1,5 @@
+//#region generation1
+
 function pop1(){
     var lignePop1 = document.getElementById("pop1");
     var contenu = lignePop1.innerHTML;
@@ -53,6 +55,8 @@ function pop8(){
     console.log(contenu + ' ' + getRandomInt(2));
     lignePop1.innerHTML = contenu + ' ' + getRandomInt(2);
 }
+//#endregion generation1
+
 
 function affPopulation(){
     pop1();
@@ -65,27 +69,23 @@ function affPopulation(){
     pop8();
 }
 
-function generate(){
-    var individu = Math.random();
-    affPopulation(individu);
-}
-
 function getRandomInt(max) {
 
-    var individu = "";
+    var individu = [];
     var i = 0;
     var gene;
 
     do {
         gene =  Math.floor(Math.random() * Math.floor(max));
-        individu = gene + individu;
+        individu[i] = gene ;
         // console.log(individu);
         i += 1
-    } while(i<8)
+    } while(i<64)
 
     // return console.log("individu : " + individu);
     return individu;
   }
 
+function calculeScore(unIndividu){
 
-// console.log(getRandomInt(3));
+}
