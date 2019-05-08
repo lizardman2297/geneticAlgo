@@ -107,7 +107,7 @@ function score(ix){
         }
         i += 1
         // console.log(score);
-    }while(i < 7)
+    }while(i < (document.getElementById("lenght").value - 1))
     return score;
 }
 
