@@ -89,6 +89,25 @@ function pop8(){
 }
 //#endregion generation1
 
+function plus(){
+    var nbActuel = document.getElementById("nbGene").innerHTML;
+    var nbSuivant = nbActuel * 2;
+    var moyen = nbActuel;
+    console.log(nbActuel);
+    console.log(nbSuivant);
+    document.getElementById("nbGene").innerHTML = nbSuivant;
+    document.getElementById("GeneMoyen").innerHTML = nbActuel;
+}
+
+function moins(){
+    var nbActuel = document.getElementById("nbGene").innerHTML;
+    var nbSuivant = nbActuel / 2;
+    var moyen = nbActuel;
+    console.log(nbActuel);
+    console.log(nbSuivant);
+    document.getElementById("nbGene").innerHTML = nbSuivant;
+    document.getElementById("GeneMoyen").innerHTML = nbActuel;
+}
 
 function affPopulation(){
     pop1();
@@ -123,41 +142,9 @@ function score(ix){
         }
         i += 1
         // console.log(score);
-    }while(i < (document.getElementById("lenght").value - 1))
+    }while(i < (document.getElementById("nbGene").innerHTML))
     return score;
 }
-
-function tri(i1,i2,i3,i4,i5,i6,i7,i8){
-    var un;
-    var deux;
-    var trois;
-    var quattre;
-    var cinq;
-    var six;
-    var setp;
-    var huit;
-
-    un = Math.max()
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -166,7 +153,7 @@ function getRandomInt(max) {
     var individu = [];
     var i = 0;
     var gene;
-    var nb = document.getElementById("lenght").value;
+    var nb = document.getElementById("nbGene").innerHTML;
     // console.log(nb);
 
     do {
@@ -178,7 +165,13 @@ function getRandomInt(max) {
 
     // return console.log("individu : " + individu);
     return individu;
-  }
+}
+
+
+
+
+
+
 
 function reset(){
     document.getElementById("pop1").innerHTML = "";
@@ -197,5 +190,6 @@ function reset(){
     document.getElementById("score6").innerHTML = "";
     document.getElementById("score7").innerHTML = "";
     document.getElementById("score8").innerHTML = "";
-    document.getElementById("lenght").value = 8;
+    document.getElementById("nbGene").innerHTML = 8;
+    document.getElementById("GeneMoyen").innerHTML = 4;
 }
