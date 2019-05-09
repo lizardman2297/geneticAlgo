@@ -18,9 +18,9 @@
         <button id="geneDOWN" onclick='moins()'>-</button>
         <p id="test">Nombre de genes de la population : <p id="nbGene">8</p></p>
         <p>moyenne : <p id="GeneMoyen">4</p></p>
-        <!-- <button id="btGenerate" onclick="generationPopulation(8,8)">Generate</button> -->
+        <button id="btGenerate" onclick="btGenerate()">Generate</button>
         <!-- <button id="btGenerate" onclick="affPopulation()">Generate</button> -->
-        <button id="btGenerate" onclick="testAff()">Generate</button>
+        <!-- <button id="btGenerate" onclick="testAff()">Generate</button> -->
         <button id="btSort" onclick="affTri()">Sort</button>
         <button id="btMuatate">Mutate</button>
         <button id="btFill">Fill</button>
